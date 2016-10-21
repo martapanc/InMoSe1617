@@ -1,13 +1,122 @@
-#wrapper {}
+body {
+    font-family: "Arial", sans-serif;
+    line-height: 120%;
+}
 
-#header {}
+#wrapper {
+    width: 910px;
+    border: solid 2px #99bbff;
+    padding: 5px;
+}
 
-#menu {}
+#header {
+    border: solid 1px #99bbff;
+    padding: 40px;
+    background-image: url("clouds.jpg");
+    background-repeat: repeat-x;
+    background-color: aliceblue;
+}
 
-#content {
+
+
+/*li a {
+    background-color: #99bbff;
+
+    padding: 10px;
+    color: white;
+    width: 200px;
+    height: 50px;
 
 }
 
-#news {}
+ul {
+    list-style-type: none;
+    width: 200px;
+    height: 50px;
+    padding: 10px;
+}*/
 
-#copyright {}
+#menu {
+    float: left;
+    width: 20%;
+    padding: 10px 0;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    margin: 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    background-color: #99bbff;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+li a:hover {
+    background: #87aaf6;
+}
+
+h3 {
+    background-color: #99bbff;
+    color: white;
+    margin: 15px 5px 5px 5px;
+    padding: 8px 16px;
+    font-variant: small-caps;
+}
+
+#content {
+    display: inline-block;
+    width: 60%;
+}
+
+p.content {
+    padding: 12px;
+    text-align: justify;
+}
+
+h4 {
+    background-color: #99bbff;
+    color: white;
+    margin: 0;
+    padding: 8px 16px;
+    font-variant: small-caps;
+}
+
+#news {
+    float: right;
+    width: 19%;
+    border: solid 1px #99bbff;
+    margin: 15px 5px 5px 2px;
+}
+
+p.news {
+    margin: 0 5px 5px 5px;
+    padding: 5px;
+}
+
+#copyright {
+    width: 100%;
+    background-color: #99bbff;
+    padding: 1px;
+    color: white;
+    text-align: center;
+}
+
+p {
+    padding: 2px;
+    display: block;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
