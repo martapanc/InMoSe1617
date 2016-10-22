@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cef92604-e682-4c05-9815-7887e6b3a12e" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/clouds.jpg" afterPath="$PROJECT_DIR$/img/clouds.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/banner.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/booking.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bookingCtrl.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/home.html" afterPath="$PROJECT_DIR$/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="Assignment2.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,7 +40,7 @@
       <file leaf-file-name="booking.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/booking.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="-1544">
               <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
               <folding>
                 <element signature="e#5908#5914#0" expanded="true" />
@@ -617,12 +617,20 @@
       <option name="presentableId" value="Default" />
       <updated>1476956719818</updated>
       <workItem from="1476956724635" duration="8326000" />
-      <workItem from="1477158862716" duration="4389000" />
+      <workItem from="1477158862716" duration="4501000" />
     </task>
+    <task id="LOCAL-00001" summary="Booking view integrated with css">
+      <created>1477163375066</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1477163375066</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12715000" />
+    <option name="totallyTimeSpent" value="12827000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1400" height="827" extended-state="0" />
@@ -665,6 +673,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Booking view integrated with css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Booking view integrated with css" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
@@ -698,7 +710,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/booking.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="-1544">
           <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
           <folding>
             <element signature="e#5908#5914#0" expanded="true" />

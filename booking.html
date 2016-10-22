@@ -1,0 +1,155 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="HTML, Javascript">
+    <meta name="description" content="Internet and Mobile Services 2016/2017 - Team 9">
+    <meta name="author" content="M. Pancaldi">
+    <meta name="revisor" content="G. Burgio, W. Sperandio">
+
+    <title>Assignment 2 - CSS and HTML 5 </title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="bookingCtrl.js" type="text/javascript"></script>
+</head>
+<body>
+
+<div id="wrapper">
+    <div id="header">
+    </div>
+    <div id="menu">
+        <ul>
+            <li><a href="booking.html">Flights</a></li>
+            <li><a href="">Packages</a></li>
+            <li><a href="">Last Minute</a></li>
+            <li><a href="">Hotels</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </div>
+
+    <div id="content">
+        <h3>Flights</h3>
+
+        <form id="table-form" name="table-form" method="post" onsubmit="return validateInput()" onreset="return reset()"
+              action="http://inmoseteam9.000webhostapp.com/response.php">
+            <table width="520px" border="1px">
+                <tr>
+                    <td colspan="5">
+                        <img src="img/banner.jpg"  alt="banner.jpg">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Departure:</b></td>
+                    <td>
+                        <input type="date" name="dep-date" id="dep-date" min="2016-10-01" max="2017-12-31">
+                    </td>
+                    <td colspan="2">
+                        <b><input type="radio" name="dep-city" value="Rome" checked>Rome</b>
+                        <b><input type="radio" name="dep-city" value="Milan">Milan</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Return:</b></td>
+                    <td>
+                        <input type="date" name="ret-date" id="ret-date" min="2016-10-01" max="2017-12-31">
+                    </td>
+                    <td colspan="2">
+                        <b><input type="radio" name="ret-city" value="Rome">Rome</b>
+                        <b><input type="radio" name="ret-city" value="Milan">Milan</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Carrier</b></td>
+                    <td>
+                        <select name="carrier">
+                            <option value="Ryanair">Ryanair</option>
+                            <option value="Alitalia">Alitalia</option>
+                            <option value="Lufthansa">Lufthansa</option>
+                        </select>
+                    </td>
+                    <td colspan="2">
+                        <input type='hidden' name="direct" value="No"> <!--Displays 'No' when the box is unchecked-->
+                        <b><input id="direct" name="direct" value="Yes" type="checkbox" checked>Direct connections only</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><b>Persons</b></td>
+                    <td>
+                        <select name="persons">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </td>
+                    <td><b>Class</b></td>
+                    <td>
+                        <select name="class">
+                            <option value="Economy">Economy</option>
+                            <option value="Business">Business</option>
+                            <option value="First">First</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="5">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td rowspan="3"><b>Personal Data</b></td>
+                    <td><b>Name:</b></td>
+                    <td>
+                        <input type="text" name="firstname" id="firstname" size="18" maxlength="30">
+                    </td>
+                    <td><b>Surname:</b></td>
+                    <td>
+                        <input type="text" name="lastname" id="lastname" size="18">
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td colspan="3">
+                        <input type="text" name="email" id="email" size="56" placeholder="email@hostname.com">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">
+                        <textarea name="comment" id="comment" rows="5" cols="52" placeholder="Comment:"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <input type="submit" value="Submit">
+                    </td>
+                    <td colspan="2">
+                        <input type="reset" value="Reset">
+                    </td>
+                </tr>
+            </table>
+
+            <button><a href="home.html">Go back</a></button>
+        </form>
+
+
+    </div>
+
+    <div id="news">
+        <h4>News</h4>
+        <p class="news">
+            Integer suscipit tristique magna. Aliquam sagittis mi. Aliquam non lectus id orci vehicula luctus. Donec felis.
+            Cras at metus eget ante auctor lacinia. Phasellus eu justo. Ut nec arcu. Donec convallis orci.
+        </p>
+    </div>
+
+    <div id="copyright">
+        <p class="copyright">
+            <small>&copy; 2016 ... - All rights reserved</small>
+        </p>
+    </div>
+</div>
+
+
+
+</body>
+</html>
