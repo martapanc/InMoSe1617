@@ -35,8 +35,8 @@ ul {
 li a {
     display: block;
     color: white;
-    margin: 5px 5px 5px 0;
-    padding: 8px 13px;
+    margin: 5px;
+    padding: 8px 16px;
     text-decoration: none;
     background-color: #99bbff;
     font-weight: bold;
@@ -73,40 +73,11 @@ h4 {
     font-variant: small-caps;
 }
 
-input, select {
-    padding: 2px;
-}
-input[type=submit], input[type=reset] {
-    font-family: "Verdana";
-    padding:5px 15px;
-    background: #667dad;
-    color: white;
-    border:0 none;
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    font-variant: small-caps;
-}
-input[type=submit]:hover, input[type=reset]:hover {
-    background-color: #6e86b9;
-}
-
-textarea {
-    resize: none;
-    font-size: 12px;
-}
-
-.go-back {
-    padding: 8px;
-    font-size: large;
-
-}
-
 #news {
     float: right;
-    width: 15.3%;
+    width: 15%;
     border: solid 1px #99bbff;
-    margin: 15px 0 15px 0;
+    margin: 15px 5px 5px 2px;
 }
 
 p.news {
@@ -120,6 +91,8 @@ p.news {
     padding: 1px;
     color: white;
     text-align: center;
+
+
 }
 
 p.copyright {
@@ -132,8 +105,4 @@ table {
     margin: 12px;
     border: solid 2px #99bbff;
     width: 520px;
-}
-
-td {
-    padding: 3px;
 }
