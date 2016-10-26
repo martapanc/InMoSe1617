@@ -27,7 +27,7 @@ function checkDates(depDate, retDate) {
     //Dates must be in the range. Also, departure date must be before the return date
     if (min <= depDate && depDate <= max && min <= retDate && retDate <= max && depDate <= retDate)
         return true;
-    else alert("Please insert valid dates.")
+    else alert("Please insert valid dates.");
 };
 
 function checkCity(retCity) {
@@ -38,7 +38,7 @@ function checkCity(retCity) {
 
 function checkUserData(first, last) {
     if (first == "" || last == "")
-        alert ("Please insert valid user data.")
+        alert ("Please insert valid user data.");
     else return true;
 };
 
